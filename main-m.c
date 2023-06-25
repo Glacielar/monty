@@ -5,6 +5,7 @@ global_t glob_v;
 /**
  * freeglob - fress the global variables.
  */
+
 void freeglob(void)
 {
 	free_dlistint(glob_v.head);
