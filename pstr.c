@@ -143,3 +143,4 @@ void _div(stack_t **head, unsigned int nline)
 	ptr = (*head)->next;
 	ptr->n /= (*head)->n;
 	popv(head, nline);
+}

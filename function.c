@@ -84,3 +84,4 @@ char *_strcut(char *s, char *d)
 		}
 	}
 	return (NULL);
+}

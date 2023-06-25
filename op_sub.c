@@ -99,3 +99,4 @@ void nop(stack_t **head, unsigned int nline)
 {
 	(void)head;
 	(void)nline;
+}

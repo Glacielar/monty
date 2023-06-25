@@ -35,3 +35,4 @@ void (*opcodes_get(char *opcode))(stack_t **stack, unsigned int line_number)
 		if (_strcomp(command[i].opcode, opcode) == 0)
 			break;
 	return (command[i].f);
+}

@@ -133,3 +133,4 @@ void pallv(stack_t **head, unsigned int nline)
 		printf("%d\n", aux->n);
 		aux = aux->next;
 	}
+}

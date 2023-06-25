@@ -59,3 +59,4 @@ void rot(stack_t **head, unsigned int nline)
 	(*head)->next = NULL;
 	(*head)->prev = ptr2;
 	*head = ptr1;
+}
